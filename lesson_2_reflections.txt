@@ -10,3 +10,41 @@ value do you think it offers?
 
 The staging area is an intermediary stage between the working directory and the repo.
 It lets you organize your commit before you actually commit it.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I don't really understand this question.  I guess if you make changes to several different
+files, you could commit them one by one by using git add to move them to the staging
+area separately.
+
+
+What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+
+I can think of many different situations, but the one that immediately came to mind was
+webpage templates.  If I could save the basic bones of my website as a repot instead of
+TEMPLATE.html, then it would be a lot easier to make new pages.  There is probably a
+better way to manage websites, but this is how I've done it in the past, and I think git
+will make it a lot easier.
+
+
+How do the diagrams help you visualize the branch structure?
+
+The answer is in the question: the diagrams visualized the branches, which was helpful in
+figuring out what exactly was going on.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram
+the way we do?
+
+All of the commits are merged into a single branch, and all the code changes from each
+commit are present in the newly merged branch.  It's represented because the new merge is
+able to reach any commit from either of its parent branches.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging saves a TON of time.  Always doing it manually may allow for more precise
+control over what gets merged and what doesn't, but git pretty much takes care of that by
+alerting you to conflicts.
