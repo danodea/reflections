@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+From what I have heard and read, the answer is "pretty much always".  Getting your work
+out there and sharing it with others is a great way to connect with people.
